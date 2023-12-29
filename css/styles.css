@@ -40,7 +40,7 @@ section{
     padding-top: 2%;
     font-size: 16pt;
 }
-.container img{
+#About img{
     padding: auto;
     height: 198px;
     width: 297px;
@@ -50,4 +50,41 @@ section{
     display: block;
     /*padding-top: 2%;*/
     border: 4px black solid;
+}
+#Socials ul{
+    padding-top: 10%;
+    list-style: circle; 
+    font-size: 20pt;
+    text-align: left;
+}
+#Socials ul li{
+    padding-bottom: 5%;
+    margin-right: 70vh;
+}
+
+#Socials img{
+    height: 3%;
+    width: 3%;
+}
+#Music ul{
+    list-style: none;
+}
+
+#Contact h2{
+    padding-bottom: 50%;
+}
+#Contact a{
+    font-size: 40pt;
+}
+.container iframe{
+    padding-top: 2%;
+    align-items: center;
+}
+#Youtube h3{
+    font-size: 18pt;
+    padding-top: 5%;
+}
+#Youtube iframe{
+    padding-top: 2%;
+    margin-left: 27%;
 }
